@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetActivity">
+
+
+    <TextView
+        android:id="@+id/idText"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="201dp"
+        android:text="Enter your college ID:"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="243dp"
+        android:textSize="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ID" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="302dp"
+        android:layout_y="322dp"
+        android:backgroundTint="#F5756C"
+        android:onClick="openApp"
+        android:text="Login" />
+</AbsoluteLayout>

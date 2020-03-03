@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ASLapp</string>
+    <string name="choose_a_word">Choose A Word</string>
+    <string name="server_ip_address">Choose Server Ip Address</string>
+
+    <string-array name="server_ips">
+        <item>10.211.17.171</item>
+    </string-array>
+
+    <string-array name="spinner_words">
+        <item>Buy</item>
+        <item>House</item>
+        <item>Fun</item>
+        <item>Hope</item>
+        <item>Arrive</item>
+        <item>Really</item>
+        <item>Read</item>
+        <item>Lip</item>
+        <item>Mouth</item>
+        <item>Some</item>
+        <item>Communicate</item>
+        <item>Write</item>
+        <item>Create</item>
+        <item>Pretend</item>
+        <item>Sister</item>
+        <item>Man</item>
+        <item>One</item>
+        <item>Drive</item>
+        <item>Perfect</item>
+        <item>Mother</item>
+    </string-array>
+
+    <string name="title_activity_login">LoginActivity</string>
+
+
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="gotoupload">GotoUpload</string>
+    <string name="title_activity_practice">PracticeActivity</string>
+    <string name="title_activity_deets">DeetsActivity</string>
+</resources>
